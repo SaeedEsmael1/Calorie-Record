@@ -1,0 +1,11 @@
+.cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px;
+    border: 1px solid var(--secondryColor);
+    border-radius: 10px;
+    color: var(--secondryColor);
+    /* min-height: 100px; */
+}

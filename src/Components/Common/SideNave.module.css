@@ -1,0 +1,31 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: #333;
+    height: 100%;
+    padding: 10px;
+    gap: 10px;
+    .title {
+        color: var(--brightGreenColor);
+        padding: 20px 10px;
+        margin: 0;
+        border-bottom: 1px solid var(--brightGreenColor);
+    }
+    a {
+        display: block;
+        
+        color: var(--brightGreenColor) ;
+        font-size: 24px;
+        font-weight: 400;
+        text-decoration: none;
+        padding: 10px;
+        &:hover {
+            
+            color: var(--darkSandColor) ;
+        }
+        &.active {
+            color: var(--brightBlueColor);
+        }
+    }
+}

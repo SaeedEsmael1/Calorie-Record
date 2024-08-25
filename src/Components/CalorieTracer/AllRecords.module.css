@@ -1,0 +1,13 @@
+.all-records {
+    padding: 20px 0;
+    background-color: var(--brightGreenColor);
+
+    .container {
+        border: 2px solid var(--darkSandColor);
+        padding: 15px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 25px;
+        color: var(--darkSandColor);
+    }
+}

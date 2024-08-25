@@ -1,0 +1,12 @@
+.record {
+    padding: 10px 20px;
+    color: var(--darkSandColor);
+    background-color: var(--mainColor);
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: space-between;
+    &:not(:last-child) {
+        margin-bottom: 15px;
+    }
+}

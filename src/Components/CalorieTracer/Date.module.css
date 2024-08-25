@@ -1,0 +1,10 @@
+.date {
+    .day, .year {
+        color: var(--secondryColor);
+    }
+    .month{
+        color: var(--pinkSandColor);
+        font-size: 20px;
+        font-size: 600;
+    }
+}

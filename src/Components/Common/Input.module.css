@@ -1,0 +1,22 @@
+.date, .meal, .content, .calories {  
+    width: calc((100% - 20px) / 2);  
+    margin-bottom: 20px;
+    label {
+        font-size: 17px;
+        display: block;
+        margin-bottom: 3px;
+    }
+    input,select {
+        width: 100%;
+        background-color: var(--mainColor);
+        color: var(--darkSandColor);
+        padding: 8px 15px;
+        border: 1px solid var(--brightBlueColor);
+        outline: none;
+        border-radius: 8px;
+        font-size: 16px;
+        &.not-valid {
+            border: 2px solid red;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.primary,.secondry {
+    padding: 10px 35px;
+    border-radius: 18px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: var(--secondaryColor);
+    &:disabled {
+        background-color: rgb(193, 193, 193);
+        color: white;
+    }
+}
+.primary {
+    background-color: var(--brightBlueColor);
+    font-weight: 600;
+}
